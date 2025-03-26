@@ -1,12 +1,9 @@
-#greeting program
-def greet(name):
-    '''
-    This function greets the person
-    using the name passed as a parameter
-    '''
-    print("Hello " + name + ". Nice to meet you.")
+# greeting program
+#This is a personilzed greeting program
+#This program prompts a user for their name and age 
+#It then displays a personalized message 
 
-greet("Ash")
-greet("E")
-
-print(greet.__doc__)
+userName = input("Enter your name: ")
+userAge = input("Enter your age: ")
+print("Hello " + userName + " You are " + userAge + " years old. You have lived long, How magnificent!")
+print("Welcome to Python Programming")
